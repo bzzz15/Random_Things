@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication - Badrz</title>
+</head>
+<body>
+    <h1>Authentication</h1>
+    <?php
+        // Replace this with your own authentication logic
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+
+        if ($username === 'your_username' && $password === 'your_password') {
+            echo '<p>Login successful!</p>';
+        } else {
+            echo '<p>Invalid username or password.</p>';
+        }
+    ?>
+</body>
+</html>
